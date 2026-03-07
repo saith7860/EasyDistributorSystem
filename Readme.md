@@ -30,32 +30,12 @@ Tools
 - Postman
 - VS Code
 ## Project Structure
-## Project Structure
-
-Distributor-System
-│
-├── frontend/        # React frontend application
-│   ├── public/
-│   ├── src/
-│   └── package.json
-│
-├── backend/         # Node.js + Express backend
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── config/
-│   └── server.js
-│
-├── .gitignore
-└── README.md
 ## Installation Guide
 1. Clone the repository
 
 git clone https://github.com/saith7860/EasyDistributorSystem
 
 2. Navigate into the project
-
-cd distributor-system
 
 3. Install backend dependencies
 
