@@ -8,7 +8,14 @@ The Distributor Management System is a full-stack web application developed to m
 -Stock Management
 -Sales
 -Dashboard Ananlytics
+## System Overview
 
+The Distributor Management System is a web-based application that helps distributors performing stock management,product management and sales.They can see their analytics on dashboard.
+The system is divided into two main parts:
+Frontend:
+Built using React to provide the user interface.
+Backend:
+Built using Node.js and Express to handle APIs and database operations.
 ## Tech Stack
 
 Frontend
@@ -63,3 +70,7 @@ npm start
 ## Future Improvements
 
 ## Contributors
+Muhammad Shaheer Zafar(Developer)
+Umair Razzaq(Database Designer)
+Sadia Ali(UI/UX Designer)
+Amir Farooq(Financial Analyst)
