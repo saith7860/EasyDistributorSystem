@@ -36,28 +36,11 @@ Tools
 - GitHub
 - Postman
 - VS Code
-## Project Structure
--Backend
- -index.js
- -.env
- -package.json
- -controllers
- -services
- -repo
- -models
- -config
--Frontend
- -public 
- -src
-   -assets
-   -App.tsx
-   -main.tsx
-   -index.css
-   -components
-   -pages
+
 ## Deployment Instructions (Local Setup)
 
 Follow these steps to run the project on your local machine.
+
  1. Clone the Repository
 
 ```bash
@@ -73,6 +56,7 @@ Navigate to the backend folder and install required packages.
 cd backend
 npm install
 ```
+
  3. Install Frontend Dependencies
 
 Navigate to the frontend folder and install required packages.
@@ -85,28 +69,27 @@ npm install
 4. Configure Environment Variables
 
 Create a `.env` file inside the **backend** directory and add the required variables.
-
-PORT=3000 5. Run the Backend Server
-
+```bash
+PORT=3000
+```
+ 5. Run the Backend Server
+```bash
 cd ../backend
-npm start 6. Run the Frontend
-
+npm start
+```
+ 6. Run the Frontend
+```bash
 cd ../frontend
 npm run dev
+```
 
-
-7. Access the Application
+ 7. Access the Application
 
 After starting both servers, open your browser and go to:
+```bash
 http://localhost:5173
-
+```
 The frontend will communicate with the backend API running on the configured port.
-
-## Environment Variables
-
-## API Endpoints
-
-## Future Improvements
 
 ## Contributors
 Muhammad Shaheer Zafar(Developer)
