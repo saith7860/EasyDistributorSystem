@@ -4,8 +4,8 @@ dotenv.config();
 import cors from 'cors'
 const app=express();
 app.use(cors());
-const PORT=process.env.PORT;
+const PORT=process.env.PORT||3000;
 app.listen(PORT,()=>{
- console.log('app is listening on port ',PORT);
+ console.log('app is listening on port',PORT);
  
 })
