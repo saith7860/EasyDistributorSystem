@@ -55,32 +55,53 @@ Tools
    -index.css
    -components
    -pages
-## Installation Guide
-1. Clone the repository
+## Deployment Instructions (Local Setup)
 
+Follow these steps to run the project on your local machine.
+ 1. Clone the Repository
+
+```bash
 git clone https://github.com/saith7860/EasyDistributorSystem
+cd EasyDistributorSystem
+```
 
-2. Navigate into the project
+2. Install Backend Dependencies
 
-3. Install backend dependencies
+Navigate to the backend folder and install required packages.
 
+```bash
 cd backend
 npm install
+```
+ 3. Install Frontend Dependencies
 
-4. Install frontend dependencies
+Navigate to the frontend folder and install required packages.
 
+```bash
 cd ../frontend
 npm install
+```
 
-5. Run backend server
+4. Configure Environment Variables
+
+Create a `.env` file inside the **backend** directory and add the required variables.
+
+PORT=3000 5. Run the Backend Server
 
 cd ../backend
-npm start
-
-6. Run frontend
+npm start 6. Run the Frontend
 
 cd ../frontend
 npm run dev
+
+
+7. Access the Application
+
+After starting both servers, open your browser and go to:
+http://localhost:5173
+
+The frontend will communicate with the backend API running on the configured port.
+
 ## Environment Variables
 
 ## API Endpoints
