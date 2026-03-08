@@ -37,6 +37,24 @@ Tools
 - Postman
 - VS Code
 ## Project Structure
+-Backend
+ -index.js
+ -.env
+ -package.json
+ -controllers
+ -services
+ -repo
+ -models
+ -config
+-Frontend
+ -public 
+ -src
+   -assets
+   -App.tsx
+   -main.tsx
+   -index.css
+   -components
+   -pages
 ## Installation Guide
 1. Clone the repository
 
@@ -56,13 +74,13 @@ npm install
 
 5. Run backend server
 
-cd backend
+cd ../backend
 npm start
 
 6. Run frontend
 
-cd frontend
-npm start
+cd ../frontend
+npm run dev
 ## Environment Variables
 
 ## API Endpoints
