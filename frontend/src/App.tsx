@@ -1,6 +1,11 @@
+import Login from "./pages/login";
 const App = () => {
   return (
-    <div>EasyDistributor</div>
+    <>
+    <div className="text-2xl">EasyDistributor</div>
+    <Login/>
+    </>
+
   )
 }
 
